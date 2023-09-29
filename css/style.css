@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* div {
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 10px 30px 60px 100px;
+    margin: 150px auto;
+    text-align: justify;
+} */
+html {
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+}
+
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-menu {
+    list-style: none;
+    padding-left: 0;
+}
+main {
+    background-color: lightgray;
+}
+footer {
+    background-color: aquamarine;
+    padding: 20px 100px;
+}
+
+.about {
+    background-color: lemonchiffon;
+    text-align: center;
+    padding: 20px 100px;
+    color: rebeccapurple; 
+    border: 5px rebeccapurple solid;
+}
+.about-text{
+    font-size: 1rem;
+    text-align: justify;
+}
+.articles {
+    text-align: center;
+    padding: 20px 100px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: darkred;
+}
+h2 {
+    text-decoration: overline;
+    text-transform: uppercase;
+    
+}
+.list-articles {
+    text-align: left;
+}
+.code {
+    border-radius: 50px; 
+    border: 3px solid green; 
+    box-shadow: 0 0 7px #666; 
+   
+}
+
+.align {
+     text-align: right; 
+    
+} 
+    
+.align { 
+        text-align: right;
+} 
+    
+a:link { 
+    color:rgb(0, 0, 0) ; 
+} 
+
+a:visited { 
+    color: rgb(0, 0, 0); 
+} 
+
+a:active {
+     color: black; 
+} 
+
+a:focus { 
+    color:rgb(8, 245, 28);
+} 
+
+a:hover { 
+    color: rgb(8, 245, 28); 
+} 
+
+.main-menu li::after { 
+    content: ""; 
+    margin: 5px;
+     font-size: 12px;
+      color: rgb(252, 1, 1);
+       display: inline-block;
+} 
+.main-menu li { 
+    position: relative;
+     display:inline-block;
+      margin: 0px 10px; 
+}
+.main-menu li::before {
+    content: "";
+    top: 0%;
+    position: absolute;
+    width: 0px; 
+    height: 2px; 
+    display: block; 
+    background-color: rgb(46, 245, 7); 
+    transition: 0.3s; 
+} 
+.main-menu li:hover::before {
+     width: 100%; 
+}
+
+.list-article-item1:focus {
+    border-color: green;
+}
+
+.list-articles li:nth-child(2n+1) {
+    background-color: rgb(240, 90, 4);
+}
+.list-article-item1:hover {
+    background-color: blue;
+}  
+.list-article-item2:after { 
+    content: "- ВАЖНО!";
+    font-size: 12pt;  
+    text-align: center;  
+    line-height: 32px;  
+    color: rgb(250, 23, 7);  
+    background: rgb(24, 247, 4);  
+    float: rightright;  
+    position: relative;  
+}
+
+.about1:focus {
+    border-color: green;
+}
+
+.about1:hover {
+    background-color: blue;
+} 
+
+.q123:first-line{
+    letter-spacing: 15px;
+   }
+
+q:lang(ru) {
+    font-size: 30px;
+}
+
+.about-text:focus {
+    border-color: rgb(212, 80, 146);
+}
+
+.about-text:hover {
+    background-color: rgb(255, 0, 128);
+} 
+.qs+img {
+    border: rgb(192, 27, 27) solid 300px;
+}
